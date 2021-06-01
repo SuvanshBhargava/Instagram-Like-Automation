@@ -25,8 +25,7 @@ time.sleep(2)
 element=driver.find_element_by_class_name("g47SY").text
 driver.find_element_by_class_name("v1Nh3.kIKUG._bz0w").click()
 time.sleep(2)
-# element1=driver.find_element_by_xpath('//*[@class="fr66n"]/button/div/span/svg').get_attribute('aria-label')
-# if(element1!='Unlike'):
+
 driver.find_element_by_class_name('fr66n').click()
 
 
@@ -35,8 +34,7 @@ while i<int(element.replace(',','')):
 
     driver.find_element_by_class_name("_65Bje.coreSpriteRightPaginationArrow").click()
     time.sleep(2)
-    # element1=driver.find_element_by_xpath('//*[@class="QBdPU"]/span/svg').get_attribute('aria-label')
-    # if (element1!='Unlike'):
+    
     driver.find_element_by_class_name('fr66n').click()
 
 
